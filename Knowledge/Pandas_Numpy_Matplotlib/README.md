@@ -2,38 +2,38 @@
 ## Author: Vu Snape
 
 ## Numpy
-- Creating numpy
-    a = np.array([[1,2,3],[4,5,6]])
-    np.array([1, 2, 3, 4], dtype ='float32')
-    np.zeros([2, 4], dtype = int)
-    np.ones([3, 4], dtype= float)
-    np.full((3, 2), 22)
-    np.arange(0, 23, 2)
-    
-- Get elements in array
-    b = np.array([22, 26, 28, 10, 1, 2, 3])
-    print(b[:2])
-    print(b[1:6:2]) 
-- Mathematic 
-    ** np.subtract 
-    ** np.mutiply
-    ** np.sort
-    ** np.where
-    ** np.dot
-    ** np.matmul
-    ** np.transpose 
-    ** np.linalg.solve
+    - Creating numpy
+        ** a = np.array([[1,2,3],[4,5,6]])
+        ** np.array([1, 2, 3, 4], dtype ='float32')
+        ** np.zeros([2, 4], dtype = int)
+        ** np.ones([3, 4], dtype= float)
+        ** np.full((3, 2), 22)
+        ** np.arange(0, 23, 2)
+        
+    - Get elements in array
+        b = np.array([22, 26, 28, 10, 1, 2, 3])
+        print(b[:2])
+        print(b[1:6:2]) 
+    - Mathematic 
+        ** np.subtract 
+        ** np.mutiply
+        ** np.sort
+        ** np.where
+        ** np.dot
+        ** np.matmul
+        ** np.transpose 
+        ** np.linalg.solve
 
-- Matrix random
-    ** np.random.random((4, 4))
-    ** np.random.seed(0)
-    ** np.random.randint(0, 10, (4,5)) 
-    ** np.eye
-    ** np.empty
-    ** A.dot(B)
-        A @ B
-    ** np.linspace
-        x = np.linspace(0, 10, 1000)
+    - Matrix random
+        ** np.random.random((4, 4))
+        ** np.random.seed(0)
+        ** np.random.randint(0, 10, (4,5)) 
+        ** np.eye
+        ** np.empty
+        ** A.dot(B)
+            A @ B
+        ** np.linspace
+            x = np.linspace(0, 10, 1000)
 
 ## Matplotlib
     - See available style in matplotlib
@@ -83,9 +83,9 @@
             ** bins 
         * subplot() - have lots of plots. 
     ** Note:
-    *** Size
-    *** cmap
-    *** alpha
+        *** Size
+        *** cmap
+        *** alpha
 
 ## Pandas
     - Reading data: 
@@ -121,7 +121,7 @@
         ** sum
             revenue = df["total_price"].sum()
         ** type(column)
-            *** type(df['event'])
+           type(df['event'])
             
     - Handle missing
         ** df.fillna(0) : covert na to 0
