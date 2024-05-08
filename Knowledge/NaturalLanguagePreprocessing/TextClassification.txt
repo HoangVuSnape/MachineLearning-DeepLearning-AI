@@ -1,0 +1,8 @@
+Homework: text classification
+1) Tìm hiểu, nêu bài toán phân loại văn bản đa nhãn (tức là 1 input có thể thuộc về nhiều label).
+
+2) Tìm hiểu phương pháp để giải quyết bài toán này. Trình bày về lý thuyết
+
+3) Thực hiện code (được sử dụng Lib) trên dữ liệu tự thu thập (dữ liệu có sẵn).
+
+So sánh các phương pháp khác nhau (biểu diễn khác nhau, model học máy khác nhau) bởi độ chính xác (accuracy) và tốc độ huấn luyện, tốc độ inference.
