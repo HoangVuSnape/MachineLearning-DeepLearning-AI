@@ -1,2 +1,3 @@
 vectors_cbow_300.txt
 vectors_skipgram_300.txt
+*.joblib
