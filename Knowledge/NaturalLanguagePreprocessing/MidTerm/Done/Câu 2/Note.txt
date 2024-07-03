@@ -1,0 +1,5 @@
+Trong quá trình làm câu 2 phần 2, thì khi sử dung data phần 1 nó có quá nhiều nhãn dẫn đến không thể chạy được(số label 60). Nên em đã thay thế 1 data khác với số nhãn chỉ là 6. Thực tế trong data train có hơn 100 nhãn lận. 
+
+Link data:
+https://drive.google.com/drive/folders/1DD9LJ8JZhjoI8ltPgz-l0-BkiTcRQIJm?usp=sharing
+
